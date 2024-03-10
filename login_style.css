@@ -1,0 +1,71 @@
+body {
+    padding: 50px;
+    background-image: url('Bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    font-family: Arial, sans-serif; /* Added font-family for better readability */
+    background: #e2d4e0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 50px;
+    box-shadow: 0px 7px 29px 0px #e053cb;
+    background-color: #4c5372;
+    border-radius: 10px; /* Added border-radius for rounded corners */
+    border-radius: 10px; /* Added border-radius for rounded corners */
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 30px;
+}
+
+.form-btn {
+    display: inline-block;
+    padding: 4px 7px;
+    background-color: #e053cb;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.form-btn:hover {
+    background-color: #b095f0;
+}
+
+/* Improved readability with better color contrast */
+/* Adjusted input and label styles for better contrast and visibility */
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 3px solid #b095f0;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+label {
+    font-weight: bold;
+    color: #333;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.container p{
+    margin-top: 10px;
+    text-decoration: none;
+}
+.container a{
+    text-decoration: none;
+    color: #fff;
+}
